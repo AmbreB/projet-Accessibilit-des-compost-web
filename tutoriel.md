@@ -50,7 +50,17 @@ Voici une check-list exhaustive de tout ce qu'il y a à respecter pour qu'un sit
 * Boutons et éléments cliquables assez grands pour qu'ils puissent être cliqués sans devoir cibler de manière précise 
 * Elements commes les liens et boutons créés de manière à ce que leur nature soit évidente   
 * Mettre un texte alternatif pour le contenu sonore ou visuel, vérifier que sans son le contenu fonctionne toujours    
-* Eviter les éléments avec un délai d'intéractions 
+* Eviter les éléments avec un délai d'intéractions.
+* Pour rendre le site le plus accessible possible il est important d'utilisé les attributs ARIA 
+```
+aria-* attributes : aria-button
+role="*"
+```
+Sur ce site vous trouverez la liste des attributs ARIA :
+https://specs.webplatform.org/html-aria/webspecs/master/#index-aria-button
+
+Developper Mozilla propose un article très complet sur l'accéssibilité web.
+https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA
     
 ## 3. Exemple concret
 
@@ -131,7 +141,10 @@ Voici un code accessible :
 ```
 ## 4. Sources et liens utiles 
 
-On peut également rendre accessible un élément sans utiliser la norme ARIANos sources : 
+On peut également rendre accessible un élément sans utiliser la norme ARIA. 
+Nos sources : 
+
+https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA
 
 http://www.acsu.buffalo.edu/~dbertuca/ada/web-access.html
 
